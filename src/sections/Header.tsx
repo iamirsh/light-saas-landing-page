@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Menu from '@/assets/menu.svg'
 
 export const Navbar = () => {
-  return <header className='sticky top-0'>
+  return <header className='sticky top-0 backdrop-blur-sm z-20'>
 
     <div className='flex justify-center items-center py-3 gap-3 bg-black text-white text-sm '>
       <p className="hidden md:block text-sm text-white/60 tracking-tighter">Streamline your workflow and boost your productivity.</p>
